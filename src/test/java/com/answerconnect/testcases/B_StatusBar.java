@@ -131,16 +131,6 @@ public class B_StatusBar extends CommonUtilities {
         validateHours(2);
     }
 
-//	// To verify the user can change the status to IN A MEETING, CUSTOM
-//
-//		public void tapCustom() {
-//
-//		}
-//
-//		public void timePickerInMeeting() {
-//
-//		}
-
     // To verify the user can change the status to AT LUNCH, 15 MINUTES
     public static void tapAtLunch() {
         tapOn("At Lunch", findAccID("atLunch"));
@@ -166,12 +156,6 @@ public class B_StatusBar extends CommonUtilities {
     public static void validateSubHeader30M() {
         validateMinutes(30);
     }
-
-//	// To verify the user can change the status to AT LUNCH, CUSTOM
-//
-//	public void timePicketLunch() {
-//
-//	}
 
     // To verify the user can change the status to ON VACATION, 1 DAY
     public static void tapOnVacation() {
@@ -207,11 +191,5 @@ public class B_StatusBar extends CommonUtilities {
     public static void validateSubHeader1W() {
         validateDay(8);
     }
-
-//	// To verify the user can change the status to ON VACATION, CUSTOM
-//
-//	public void timePickerVacation() {
-//
-//	}
 
 }
