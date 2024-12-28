@@ -1,4 +1,4 @@
-#Author: stephen.john@anywhere.co
+#Author: Stephen John
 @StatusBar
 Feature: Status Bar
 
@@ -42,17 +42,6 @@ Feature: Status Bar
     Then validate the updated status header
     Then validate the updated status sub header for next 2 hours
 
-  #Scenario: To verify the user can change the status to IN A MEETING, CUSTOM
-    #Given check the current status
-    #When tap on more status icon
-    #And tap on In a Meeting
-    #Then validate the In a Meeting header
-    #And tap on Custom
-    #And choose a time picker for In a Meeting
-    #And tap on Done
-    #Then validate the updated status header
-    #Then validate the updated status sub header
-
   Scenario: To verify the user can change the status to AT LUNCH, 15 MINUTES
     Given check the current status
     When tap on more status icon
@@ -83,17 +72,6 @@ Feature: Status Bar
     Then validate the updated status header
     Then validate the updated status sub header for next hour
 
-  #Scenario: To verify the user can change the status to AT LUNCH, CUSTOM
-    #Given check the current status
-    #When tap on more status icon
-    #And tap on At Lunch
-    #Then validate the Lunch header
-    #And tap on Custom
-    #And choose a time picker for Lunch
-    #And tap on Done
-    #Then validate the updated status header
-    #Then validate the updated status sub header
-
   Scenario: To verify the user can change the status to ON VACATION, 1 DAY
     Given check the current status
     When tap on more status icon
@@ -123,14 +101,3 @@ Feature: Status Bar
     And tap on Done
     Then validate the updated status header
     Then validate the updated status sub header for 1 week
-
-  #Scenario: To verify the user can change the status to ON VACATION, CUSTOM
-    #Given check the current status
-    #When tap on more status icon
-    #And tap on On Vacation
-    #Then validate the Vacation header
-    #And tap on Custom
-    #And choose a date and time picker for Vacation
-    #And tap on Done
-    #Then validate the updated status header
-    #Then validate the updated status sub header
