@@ -1,4 +1,4 @@
-#Author: stephen.john@anywhere.co
+#Author: Stephen John
 @LoginPage
 Feature: Login Page
 
